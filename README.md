@@ -1,5 +1,11 @@
 # Projeto_html_Patas_do_Amanha-
 
+[![Status](https://img.shields.io/badge/status-em%20desenvolvimento-yellow)]()
+[![HTML](https://img.shields.io/badge/feito%20com-HTML5-orange)]()
+[![CSS](https://img.shields.io/badge/feito%20com-CSS3-blueviolet)]()
+[![JavaScript](https://img.shields.io/badge/feito%20com-JavaScript-blue)]()
+
+
 Este projeto foi desenvolvido como parte da disciplina de **Desenvolvimento Front-End**, com o objetivo de aplicar os fundamentos de **HTML5 e CSS** na criação de uma plataforma web para uma ONG fictícia.
 
 ---
@@ -17,13 +23,13 @@ O projeto é composto por **3 páginas principais**, todas estruturadas com **HT
 
 | Página | Função |
 |--------|--------|
-| `index.html` | Página inicial com informações sobre a ONG, seção “Quem Somos”, Missão, Visão e Valores, e contato. |
+| `index.html` | Página inicial com informações sobre a ONG, Visão e Valores, e contato. |
 | `projetos.html` | Página dedicada aos projetos sociais, exibidos em cards responsivos e instruções para participação ou doação. |
 | `cadastro.html` | Formulário de cadastro de voluntários, com validação nativa e estilo padronizado pelo sistema de design. |
 
 ---
 
-## 🧩 Recursos Utilizados
+## Recursos Utilizados
 
 - **HTML5 Semântico:** `<header>`, `<nav>`, `<main>`, `<section>`, `<footer>`.
 - **CSS externo e modular:** Sistema de design com variáveis CSS, paleta de cores, tipografia e espaçamento padronizados.
@@ -35,7 +41,7 @@ O projeto é composto por **3 páginas principais**, todas estruturadas com **HT
 
 ---
 
-## 🚀 Como Visualizar
+## Como Visualizar
 
 1. Baixe ou clone este repositório.
 2. Abra a pasta no **Visual Studio Code**.
@@ -43,14 +49,14 @@ O projeto é composto por **3 páginas principais**, todas estruturadas com **HT
 
 ---
 
-## 👩‍💻 Desenvolvido por
+## Desenvolvido por
 
 **Gustavo Leandro**  
-💻 Projeto acadêmico — Desenvolvimento Front-End 
+Projeto acadêmico — Desenvolvimento Front-End 
 
 ---
 
-## 🧾 Licença
+## Licença
 
 Este projeto é de uso acadêmico e não possui fins comerciais.
 
