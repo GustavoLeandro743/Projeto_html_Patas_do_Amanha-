@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style.css"> <title>Minha Jornada: Conquistas e Marcos Pessoais</title>
+</head>
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        /* 1. GARANTE QUE HTML E BODY OCUPEM 100% DA JANELA */
+        html, body {
+            height: 100%; /* Ocupa 100% da altura da tela */
+            width: 100%;  /* Ocupa 100% da largura da tela */
+            margin: 0;    /* Remove a margem padrão do navegador */
+            padding: 0;   /* Remove o padding padrão */
+            overflow: hidden; /* Evita barras de rolagem desnecessárias */
+        }
+
+        /* 2. APLICA O GRADIENTE AO BODY */
+        body {
+            /* Direção: de cima para baixo (ideal para pôr do sol no horizonte) */
+            background: linear-gradient(
+                to bottom,
+                #ff7e5f 0%,     /* Laranja-avermelhado (Topo) */
+                #feb47b 30%,    /* Laranja mais claro */
+                #ffc76b 65%,    /* Amarelo-pêssego */
+                #fff152 100%    /* Amarelo suave (Base) */
+            );
+            /* Se preferir que as cores se espalhem diagonalmente, mude "to bottom" para "to bottom right" */
+        }
+
+        /* Se você ainda quiser usar uma DIV para o gradiente, use este estilo
+           (mas é mais comum aplicar ao body ou a uma div container principal): */
+        .por-do-sol-tela {
+            width: 100%;
+            height: 100%;
+            /* Copie e cole a regra 'background: linear-gradient(...)' aqui,
+               e use a div no seu HTML em vez do body */
+        }
+
+    </style>
+</head>
+<body>
+
+
+</body>
+</html>
+<body>
+    <header>
+        <nav class="nav-bar">
+            </nav>
+        <h1 id="h1-portal">Portal da Minha História</h1>
+    </header>
+
+    <main>
+        <h1 class="main-title">Marcos e Métricas Relevantes (2018-2025)</h1>
+
+        <section class="charts" aria-labelledby="conquistas-title">
+            <h2><i id="conquistas-title">Conquistas por Ano (Métrica de Sucesso)</i></h2>
+            <canvas id="conquistasChart" width="800" height="300" aria-label="Gráfico de conquistas anuais"></canvas>
+        </section>
+
+        <section class="charts" aria-labelledby="desafios-title">
+            <h2><i id="desafios-title">Desafios Encontrados por Categoria</i></h2>
+            <canvas id="desafiosChart" width="800" height="300" aria-label="Gráfico de desafios por categoria"></canvas>
+        </section>
+
+        <section aria-labelledby="table-title">
+            <h2><i id="table-title">Resumo de Métricas por Ano/Período</i></h2>
+            <div id="table-data">Resumo de dados</div>
+            <a href="relatorios/meus_dados_conquistas.csv">Download: Baixar CSV de Conquistas</a> | 
+            <a href="relatorios/meus_dados_desafios.csv">Download: Baixar CSV de Desafios</a>
+        </section>
+    </main>
+
+    <script src="js/transparencia.js"></script> <script src="js/menu.js"></script> <script src="js/jquery.min.js"></script> </body>
+</html>
