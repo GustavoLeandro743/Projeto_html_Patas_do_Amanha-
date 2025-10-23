@@ -19,7 +19,7 @@ O site foi desenvolvido para apresentar os projetos da ONG, incentivar o volunta
 
 ##  Estrutura do Projeto
 
-O projeto é composto por **3 páginas principais**, todas estruturadas com **HTML5 semântico** e estilizadas com **CSS externo**:
+O projeto é composto por páginas principais, todas estruturadas com **HTML5 semântico** e estilizadas com **CSS externo**:
 
 | Página | Função |
 |--------|--------|
